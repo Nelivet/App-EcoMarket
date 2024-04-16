@@ -79,20 +79,20 @@ User profile screen
 #### Flow navigation (Screen to Screen):
 
 - Login/Registration Screen
- - **=>** Home Page (Product Feed) after successful login or registration
+  - **=>** Home Page (Product Feed) after successful login or registration
 - Home Page (Product Feed)
   - **=>** Product details page (when clicking on a product)
   - **=>** Product search page (when using search function)
 - Product search page
- - **=>** Product details page (when you click on a product from the search results)
+  - **=>** Product details page (when you click on a product from the search results)
   - Product details page
- - **=>** Shopping Cart Page (when adding the product to shopping cart from the details page)
+  - **=>** Shopping Cart Page (when adding the product to shopping cart from the details page)
   - Shopping Cart Page
- - **=>** Payment page (when proceeding with the purchase)
-  - User profile screen
- - **=>** Favorite products screen (optional) (when selecting the option to view favorite products)
- - **=>** Product reviews and ratings screen (optional) (when selecting the option to view reviews and ratings)
- - **=>** Social sharing screen (optional) (when selecting the option to share a product on social networks)
+  - **=>** Payment page (when proceeding with the purchase)
+- User profile screen
+  - **=>** Favorite products screen (optional) (when selecting the option to view favorite products)
+  - **=>** Product reviews and ratings screen (optional) (when selecting the option to view reviews and ratings)
+  - **=>** Social sharing screen (optional) (when selecting the option to share a product on social networks)
 
 Wireframes
 [Add picture of your hand sketched wireframes in this section] 

@@ -115,7 +115,7 @@ The development of this project will be organized in sprints, periods of time du
 1. **Sprint 1: Initial setup and project structure**
     - Configure the development environment.
     - Create the basic structure of the project.
-    - Configure the basic user interface.
+    - Configure the login interface.
 
 2. **Sprint 2: Home Screen Design and Implementation**
     - Design the home screen user interface.

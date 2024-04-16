@@ -85,9 +85,9 @@ User profile screen
   - **=>** Product search page (when using search function)
 - Product search page
   - **=>** Product details page (when you click on a product from the search results)
-  - Product details page
+- Product details page
   - **=>** Shopping Cart Page (when adding the product to shopping cart from the details page)
-  - Shopping Cart Page
+- Shopping Cart Page
   - **=>** Payment page (when proceeding with the purchase)
 - User profile screen
   - **=>** Favorite products screen (optional) (when selecting the option to view favorite products)

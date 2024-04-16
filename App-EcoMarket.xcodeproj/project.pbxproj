@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		23FE102A2BCE3A4A00EAAED1 /* EcoMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FE102A2BCE3A4A00EAAED1 /* App-EcoMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-EcoMarket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FE102D2BCE3A4A00EAAED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23FE102F2BCE3A4A00EAAED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		23FE10312BCE3A4A00EAAED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		23FE102B2BCE3A4A00EAAED1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23FE102A2BCE3A4A00EAAED1 /* EcoMarket.app */,
+				23FE102A2BCE3A4A00EAAED1 /* App-EcoMarket.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23FE10292BCE3A4A00EAAED1 /* EcoMarket */ = {
+		23FE10292BCE3A4A00EAAED1 /* App-EcoMarket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23FE103E2BCE3A5100EAAED1 /* Build configuration list for PBXNativeTarget "EcoMarket" */;
+			buildConfigurationList = 23FE103E2BCE3A5100EAAED1 /* Build configuration list for PBXNativeTarget "App-EcoMarket" */;
 			buildPhases = (
 				23FE10262BCE3A4A00EAAED1 /* Sources */,
 				23FE10272BCE3A4A00EAAED1 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = EcoMarket;
+			name = "App-EcoMarket";
 			productName = EcoMarket;
-			productReference = 23FE102A2BCE3A4A00EAAED1 /* EcoMarket.app */;
+			productReference = 23FE102A2BCE3A4A00EAAED1 /* App-EcoMarket.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 23FE10252BCE3A4A00EAAED1 /* Build configuration list for PBXProject "EcoMarket" */;
+			buildConfigurationList = 23FE10252BCE3A4A00EAAED1 /* Build configuration list for PBXProject "App-EcoMarket" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23FE10292BCE3A4A00EAAED1 /* EcoMarket */,
+				23FE10292BCE3A4A00EAAED1 /* App-EcoMarket */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23FE10252BCE3A4A00EAAED1 /* Build configuration list for PBXProject "EcoMarket" */ = {
+		23FE10252BCE3A4A00EAAED1 /* Build configuration list for PBXProject "App-EcoMarket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23FE103C2BCE3A5100EAAED1 /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23FE103E2BCE3A5100EAAED1 /* Build configuration list for PBXNativeTarget "EcoMarket" */ = {
+		23FE103E2BCE3A5100EAAED1 /* Build configuration list for PBXNativeTarget "App-EcoMarket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23FE103F2BCE3A5100EAAED1 /* Debug */,

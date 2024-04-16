@@ -7,16 +7,16 @@
 4. Schema
 
 ### Overview
-####Description:
+#### Description:
 - "EcoMarket" is an e-commerce platform dedicated to promoting sustainable consumption practices and environmental conservation. With "EcoMarket", users can buy and sell a wide variety of products, from fashion items to home products, with a focus on sustainability and environmental responsibility. The app is designed to encourage a greener lifestyle by offering users an ethical and conscious alternative for their online shopping needs.
 ### App Evaluation
 
-   - **Category: Online Shopping / Sustainability
+   - ** Category: Online Shopping / Sustainability
      - **Mobile: Offers a mobile platform to browse products and transact from anywhere.
      - **History: Promotes responsible consumption and supports companies committed to sustainable business practices.
-   - **Market: Attracts people concerned about the environment and who want to make more ethical and conscious purchasing decisions.
-    - **Habit: Users can visit the app regularly in search of new and sustainable products.
-    - **Scope: The initial version (V1) would focus on basic buying and selling of products. V2 could include features such as advanced search and secure payment options. V3 could be expanded to include sustainability education and awareness features.
+   - ** Market: Attracts people concerned about the environment and who want to make more ethical and conscious purchasing decisions.
+    - ** Habit: Users can visit the app regularly in search of new and sustainable products.
+    - ** Scope: The initial version (V1) would focus on basic buying and selling of products. V2 could include features such as advanced search and secure payment options. V3 could be expanded to include sustainability education and awareness features.
 
 
 ### Product Spec:

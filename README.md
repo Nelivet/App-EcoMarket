@@ -135,6 +135,8 @@ The development of this project will be organized in sprints, periods of time du
     - Implement local data persistence to save favorite products.
     - Allow users to mark products as favorites.
     - Improve user interface to show favorite products.
+#### Video
+https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42c0-a13b-bd3c3ffa4755
 -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 Schema
 [This section will be completed in Unit 9]

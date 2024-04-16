@@ -1,7 +1,7 @@
 ## Original App Design Project 
 # ECOMARKET
 ## Table of Contents
-1. Overview
+1. Overview 
 2. Product Spec
 3. Wireframes
 4. Schema
@@ -95,10 +95,47 @@ User profile screen
   - **=>** Social sharing screen (optional) (when selecting the option to share a product on social networks)
 
 Wireframes
-[Add picture of your hand sketched wireframes in this section] 
+![desing](https://github.com/Nelivet/App-EcoMarket/blob/27da49bc557e6ca421034d56b9920d48cfc893b0/Captura%20de%20Pantalla%202024-04-16%20a%20la(s)%2001.30.00.png)
 
 [BONUS] Digital Wireframes & Mockups
 [BONUS] Interactive Prototype 
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
+## Sprint Planning and Development
+
+The development of this project will be organized in sprints, periods of time during which specific features of the application will be worked on. The sprint planning is detailed below:
+
+### Main Features:
+1. Home screen showing products for sale.
+2. Product details screen.
+3. Product search functionality by category or keyword.
+4. Functionality of adding products to the shopping cart.
+5. Local data persistence functionality to save favorite products.
+
+### Breakdown into Sprints:
+1. **Sprint 1: Initial setup and project structure**
+    - Configure the development environment.
+    - Create the basic structure of the project.
+    - Configure the login interface.
+
+2. **Sprint 2: Home Screen Design and Implementation**
+    - Design the home screen user interface.
+    - Implement the logic to display products for sale.
+    - Allow navigation to the product details screen.
+
+3. **Sprint 3: Product Search Functionality**
+    - Design the user interface for the product search function.
+    - Implement logic to search for products by category or keyword.
+
+4. **Sprint 4: Implementation of shopping cart functionality**
+    - Design the user interface for the shopping cart.
+    - Implement the logic to add products to the shopping cart.
+    - Allow viewing and editing of the shopping cart.
+
+5. **Sprint 5: Local data persistence and favorite products**
+    - Implement local data persistence to save favorite products.
+    - Allow users to mark products as favorites.
+    - Improve user interface to show favorite products.
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 Schema
 [This section will be completed in Unit 9]
 

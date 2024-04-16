@@ -98,7 +98,7 @@ Wireframes
 [Add picture of your hand sketched wireframes in this section] 
 
 [BONUS] Digital Wireframes & Mockups
-[BONUS] Interactive Prototype
+[BONUS] Interactive Prototype 
 Schema
 [This section will be completed in Unit 9]
 

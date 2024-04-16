@@ -79,10 +79,10 @@ User profile screen
 #### Flow navigation (Screen to Screen):
 
 - Login/Registration Screen
-=> Home Page (Product Feed) after successful login or registration
+ -- => Home Page (Product Feed) after successful login or registration
 - Home Page (Product Feed)
-=> Product details page (when clicking on a product)
-=> Product search page (when using search function)
+ => Product details page (when clicking on a product)
+ => Product search page (when using search function)
 - Product search page
 => Product details page (when you click on a product from the search results)
 - Product details page

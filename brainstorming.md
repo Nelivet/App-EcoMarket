@@ -1,4 +1,4 @@
-Mobile App Dev    -    App Brainstorming Example
+Mobile App Dev    -    App Brainstorming 
 ===
 ## New App Ideas - List- List
 

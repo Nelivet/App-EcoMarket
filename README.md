@@ -158,8 +158,9 @@ https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42
 
 ![Captura de Pantalla 2024-04-23 a la(s) 02 39 02](https://github.com/Nelivet/App-EcoMarket/assets/93177387/70a890e8-33ed-49ea-87e5-11ccfb430e5a)
 
-
+------------------------------- ------------------------
 ![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/bea75db6-62b3-4473-86a3-48ea1817974d)
+------------------------------- ------------------------
 ![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/953bf6a7-7888-4d0d-84c1-1e39ebacaefe)
 
 
@@ -169,16 +170,16 @@ https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42
 Method: GET
 Endpoint:
  [(https://codepathivetteapp.azurewebsites.net/api/Product/GetAllProducts)](https://codepathivetteapp.azurewebsites.net/api/Product/GetAllProducts)
-------------------------------- ------------------------
+
 ## Get Product Details by ID
 Method: GET
 Endpoint: [https://codepathivetteapp.azurewebsites.net/api/Product/GetProductById/{product_id}](https://codepathivetteapp.azurewebsites.net/api/Product/GetProductById/1)
-------------------------------- ------------------------
+
 ## Login User
 Method: POST
 Endpoint: 
 [https://codepathivetteapp.azurewebsites.net/api/User/Login](https://codepathivetteapp.azurewebsites.net/api/User/Login)
-------------------------------- ------------------------
+
 - **Request body:**
 ## json
 - **example**

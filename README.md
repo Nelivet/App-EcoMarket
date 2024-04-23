@@ -178,12 +178,8 @@ Endpoint:
 [https://codepathivetteapp.azurewebsites.net/api/User/Login](https://codepathivetteapp.azurewebsites.net/api/User/Login)
 - **Request body:**
 ## json
-![Captura de Pantalla 2024-04-23 a la(s) 02 30 16](https://github.com/Nelivet/App-EcoMarket/assets/93177387/d4847726-3f8e-402e-9ad5-01a6fbe1d76a)
+![Captura de Pantalla 2024-04-23 a la(s) 02 53 10](https://github.com/Nelivet/App-EcoMarket/assets/93177387/b5e5df81-0e75-496c-9373-7dbe0a654696)
 
-{
-     "username": "ifernandez",
-     "password": "ifernandez123"
-}
 
 
 

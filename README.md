@@ -95,11 +95,11 @@ User profile screen
   - **=>** Social sharing screen (optional) (when selecting the option to share a product on social networks)
 
 ## Wireframes
-
+**Digital Wireframes & Mockups**
 ![desing](https://github.com/Nelivet/App-EcoMarket/blob/27da49bc557e6ca421034d56b9920d48cfc893b0/Captura%20de%20Pantalla%202024-04-16%20a%20la(s)%2001.30.00.png)
 
-[BONUS] Digital Wireframes & Mockups
-[BONUS] Interactive Prototype 
+
+
 -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ## Sprint Planning and Development
 

@@ -167,13 +167,15 @@ https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42
 #### Networking
 ## Get All Products
 Method: GET
-Endpoint: [(https://codepathivetteapp.azurewebsites.net/api/Product/GetAllProducts)](https://codepathivetteapp.azurewebsites.net/api/Product/GetAllProducts)
+Endpoint:
+ [(https://codepathivetteapp.azurewebsites.net/api/Product/GetAllProducts)](https://codepathivetteapp.azurewebsites.net/api/Product/GetAllProducts)
 ## Get Product Details by ID
 Method: GET
-Endpoint: https://codepathivetteapp.azurewebsites.net/api/Product/GetProductById/{product_id}
+Endpoint: [https://codepathivetteapp.azurewebsites.net/api/Product/GetProductById/{product_id}](https://codepathivetteapp.azurewebsites.net/api/Product/GetProductById/1)
 ## Login User
 Method: POST
-Endpoint: https://codepathivetteapp.azurewebsites.net/api/User/Login
+Endpoint: 
+[https://codepathivetteapp.azurewebsites.net/api/User/Login](https://codepathivetteapp.azurewebsites.net/api/User/Login)
 - **Request body:**
 ## json
 ![Captura de Pantalla 2024-04-23 a la(s) 02 30 16](https://github.com/Nelivet/App-EcoMarket/assets/93177387/d4847726-3f8e-402e-9ad5-01a6fbe1d76a)

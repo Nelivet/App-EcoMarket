@@ -118,9 +118,9 @@ The development of this project will be organized in sprints, periods of time du
     - Configure the login interface UI. [x]
 
 2. **Sprint 2: Home Screen Design and Implementation**
-    - Design the home screen user interface.
-    - Implement the logic to display products for sale.
-    - Allow navigation to the product details screen.
+    - Design the home screen user interface.[x]
+    - Implement the logic to display products for sale.[x]
+    - Allow navigation to the product details screen.[x]
 
 3. **Sprint 3: Product Search Functionality**
     - Design the user interface for the product search function.

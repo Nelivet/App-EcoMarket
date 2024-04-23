@@ -5,7 +5,7 @@
 2. Product Spec
 3. Wireframes
 4. Schema
-
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ### Overview
 #### Description:
 - "EcoMarket" is an e-commerce platform dedicated to promoting sustainable consumption practices and environmental conservation. With "EcoMarket", users can buy and sell a wide variety of products, from fashion items to home products, with a focus on sustainability and environmental responsibility. The app is designed to encourage a greener lifestyle by offering users an ethical and conscious alternative for their online shopping needs.
@@ -18,7 +18,7 @@
   - **Habit:** Users can visit the app regularly in search of new and sustainable products.
   - **Scope:** The initial version (V1) would focus on basic buying and selling of products. V2 could include features such as advanced search and secure payment options. V3 could be expanded to include sustainability education and awareness features.
 
-
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ### Product Spec:
 ### 1. User Stories (Required and Optional)
 
@@ -35,7 +35,7 @@
 1. Users can leave product reviews and ratings.
 2. Users can share products on social networks.
 3. Users can choose one or more product/s as their favorite.
- 
+ -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ### 2. Screen Archetypes
 
 #### Login/Registration Screen
@@ -69,7 +69,7 @@ Users can add their own review and rating for a product.
 #### Social sharing screen (Optional)
 
 Users can share information about a product on their social networks, such as Facebook or Twitter.
-
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ### 3. Navigation
 
 #### Tab navigation (Tab to Screen):
@@ -142,23 +142,26 @@ https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42
 ## Schema
 
 #### Products
-id: Unique ID of the product (INTEGER)
-image: Product image (URL)
-name: Product name (STRING)
-price: Price of the product (INTEGER)
-description: Product description (STRING)
-brand: Product brand (STRING)
+- id: Unique ID of the product (INTEGER)
+- image: Product image (URL)
+- name: Product name (STRING)
+- price: Price of the product (INTEGER)
+- description: Product description (STRING)
+- brand: Product brand (STRING)
 
 #### Users
-username: Username (STRING)
-password: User password (STRING)
+- username: Username (STRING)
+- password: User password (STRING)
+
 #### Models
-Model Description Fields
+- Model Description Fields
+![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/bea75db6-62b3-4473-86a3-48ea1817974d)
+
 ![Captura de Pantalla 2024-04-23 a la(s) 02 13 51](https://github.com/Nelivet/App-EcoMarket/assets/93177387/7ab2b8dd-f35d-45ef-bd92-86ef9f5a1c6e)
 ![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/953bf6a7-7888-4d0d-84c1-1e39ebacaefe)
 
 
-
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 #### Networking
 ## Get All Products
 Method: GET

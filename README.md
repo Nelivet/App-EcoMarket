@@ -157,7 +157,7 @@ https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42
 - Model Description Fields
 
 ![Captura de Pantalla 2024-04-23 a la(s) 02 39 02](https://github.com/Nelivet/App-EcoMarket/assets/93177387/70a890e8-33ed-49ea-87e5-11ccfb430e5a)
-
+ - **Using personal api**
 ------------------------------- ------------------------
 ![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/bea75db6-62b3-4473-86a3-48ea1817974d)
 
@@ -180,9 +180,9 @@ Method: POST
 Endpoint: 
 [https://codepathivetteapp.azurewebsites.net/api/User/Login](https://codepathivetteapp.azurewebsites.net/api/User/Login)
 
-- **Request body:**
-## json
-- **example**
+#### Request body:
+ -**json**  **example**
+
 ![Captura de Pantalla 2024-04-23 a la(s) 02 53 10](https://github.com/Nelivet/App-EcoMarket/assets/93177387/b5e5df81-0e75-496c-9373-7dbe0a654696)
 
 

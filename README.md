@@ -138,15 +138,45 @@ The development of this project will be organized in sprints, periods of time du
 #### Video
 https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42c0-a13b-bd3c3ffa4755
 -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
-Schema
-[This section will be completed in Unit 9]
+#### Schema
 
-Models
-[Add table of models]
+### Products
+id: Unique ID of the product (INTEGER)
+image: Product image (URL)
+name: Product name (STRING)
+price: Price of the product (INTEGER)
+description: Product description (STRING)
+brand: Product brand (STRING)
 
-Networking
-[Add list of network requests by screen ]
-[Create basic snippets for each Parse network request]
-[OPTIONAL: List endpoints if using existing API such as Yelp]
+### Users
+username: Username (STRING)
+password: User password (STRING)
+#### Models
+Model Description Fields
+![Captura de Pantalla 2024-04-23 a la(s) 02 13 51](https://github.com/Nelivet/App-EcoMarket/assets/93177387/7ab2b8dd-f35d-45ef-bd92-86ef9f5a1c6e)
+![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/953bf6a7-7888-4d0d-84c1-1e39ebacaefe)
+
+![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/8b2c5846-ecb9-4aa8-9e1f-59c4b2d365f9)
+
+#### Networking
+## Get All Products
+Method: GET
+Endpoint: https://codepathivetteapp.azurewebsites.net/api/Product/GetAllProducts
+## Get Product Details by ID
+Method: GET
+Endpoint: https://codepathivetteapp.azurewebsites.net/api/Product/GetProductById/{product_id}
+## Login User
+Method: POST
+Endpoint: https://codepathivetteapp.azurewebsites.net/api/User/Login
+- **Request body:**
+json
+Copy code
+{
+     "username": "ifernandez",
+     "password": "ifernandez123"
+}
+
+
+
   
 

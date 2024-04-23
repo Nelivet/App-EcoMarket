@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235530F52BD37735004A794C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235530F42BD37735004A794C /* ViewController.swift */; };
+		235530F72BD39951004A794C /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235530F62BD39951004A794C /* ProductCell.swift */; };
 		23742F812BCE62E100BAF803 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23742F802BCE62E100BAF803 /* LoginViewController.swift */; };
+		23767EF42BD71D2900F14354 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23767EF32BD71D2900F14354 /* Product.swift */; };
+		23767EF72BD777CF00F14354 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 23767EF62BD777CF00F14354 /* Nuke */; };
+		23767EF92BD78C6400F14354 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23767EF82BD78C6400F14354 /* DetailViewController.swift */; };
 		23FE102E2BCE3A4A00EAAED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FE102D2BCE3A4A00EAAED1 /* AppDelegate.swift */; };
 		23FE10302BCE3A4A00EAAED1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FE102F2BCE3A4A00EAAED1 /* SceneDelegate.swift */; };
 		23FE10352BCE3A4A00EAAED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FE10332BCE3A4A00EAAED1 /* Main.storyboard */; };
@@ -16,7 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		235530F42BD37735004A794C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		235530F62BD39951004A794C /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		23742F802BCE62E100BAF803 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		23767EF32BD71D2900F14354 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		23767EF82BD78C6400F14354 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		23FE102A2BCE3A4A00EAAED1 /* App-EcoMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-EcoMarket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FE102D2BCE3A4A00EAAED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23FE102F2BCE3A4A00EAAED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23767EF72BD777CF00F14354 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +66,16 @@
 		23FE102C2BCE3A4A00EAAED1 /* EcoMarket */ = {
 			isa = PBXGroup;
 			children = (
+				23742F802BCE62E100BAF803 /* LoginViewController.swift */,
+				235530F42BD37735004A794C /* ViewController.swift */,
+				23767EF82BD78C6400F14354 /* DetailViewController.swift */,
 				23FE102D2BCE3A4A00EAAED1 /* AppDelegate.swift */,
 				23FE102F2BCE3A4A00EAAED1 /* SceneDelegate.swift */,
 				23FE10332BCE3A4A00EAAED1 /* Main.storyboard */,
+				235530F62BD39951004A794C /* ProductCell.swift */,
+				23767EF32BD71D2900F14354 /* Product.swift */,
 				23FE10362BCE3A5100EAAED1 /* Assets.xcassets */,
 				23FE10382BCE3A5100EAAED1 /* LaunchScreen.storyboard */,
-				23742F802BCE62E100BAF803 /* LoginViewController.swift */,
 				23FE103B2BCE3A5100EAAED1 /* Info.plist */,
 			);
 			path = EcoMarket;
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = "App-EcoMarket";
+			packageProductDependencies = (
+				23767EF62BD777CF00F14354 /* Nuke */,
+			);
 			productName = EcoMarket;
 			productReference = 23FE102A2BCE3A4A00EAAED1 /* App-EcoMarket.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 23FE10212BCE3A4900EAAED1;
+			packageReferences = (
+				23767EF52BD777CF00F14354 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 23FE102B2BCE3A4A00EAAED1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +160,11 @@
 			files = (
 				23742F812BCE62E100BAF803 /* LoginViewController.swift in Sources */,
 				23FE102E2BCE3A4A00EAAED1 /* AppDelegate.swift in Sources */,
+				235530F72BD39951004A794C /* ProductCell.swift in Sources */,
+				235530F52BD37735004A794C /* ViewController.swift in Sources */,
 				23FE10302BCE3A4A00EAAED1 /* SceneDelegate.swift in Sources */,
+				23767EF42BD71D2900F14354 /* Product.swift in Sources */,
+				23767EF92BD78C6400F14354 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23767EF52BD777CF00F14354 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23767EF62BD777CF00F14354 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23767EF52BD777CF00F14354 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 23FE10222BCE3A4900EAAED1 /* Project object */;
 }

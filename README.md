@@ -175,8 +175,9 @@ Endpoint: https://codepathivetteapp.azurewebsites.net/api/Product/GetProductById
 Method: POST
 Endpoint: https://codepathivetteapp.azurewebsites.net/api/User/Login
 - **Request body:**
-json
-Copy code
+## json
+![Captura de Pantalla 2024-04-23 a la(s) 02 30 16](https://github.com/Nelivet/App-EcoMarket/assets/93177387/d4847726-3f8e-402e-9ad5-01a6fbe1d76a)
+
 {
      "username": "ifernandez",
      "password": "ifernandez123"

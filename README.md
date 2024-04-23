@@ -94,7 +94,8 @@ User profile screen
   - **=>** Product reviews and ratings screen (optional) (when selecting the option to view reviews and ratings)
   - **=>** Social sharing screen (optional) (when selecting the option to share a product on social networks)
 
-Wireframes
+## Wireframes
+
 ![desing](https://github.com/Nelivet/App-EcoMarket/blob/27da49bc557e6ca421034d56b9920d48cfc893b0/Captura%20de%20Pantalla%202024-04-16%20a%20la(s)%2001.30.00.png)
 
 [BONUS] Digital Wireframes & Mockups
@@ -135,12 +136,12 @@ The development of this project will be organized in sprints, periods of time du
     - Implement local data persistence to save favorite products.
     - Allow users to mark products as favorites.
     - Improve user interface to show favorite products.
-#### Video
+## Video
 https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42c0-a13b-bd3c3ffa4755
 -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
-#### Schema
+## Schema
 
-### Products
+#### Products
 id: Unique ID of the product (INTEGER)
 image: Product image (URL)
 name: Product name (STRING)
@@ -148,7 +149,7 @@ price: Price of the product (INTEGER)
 description: Product description (STRING)
 brand: Product brand (STRING)
 
-### Users
+#### Users
 username: Username (STRING)
 password: User password (STRING)
 #### Models
@@ -156,7 +157,7 @@ Model Description Fields
 ![Captura de Pantalla 2024-04-23 a la(s) 02 13 51](https://github.com/Nelivet/App-EcoMarket/assets/93177387/7ab2b8dd-f35d-45ef-bd92-86ef9f5a1c6e)
 ![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/953bf6a7-7888-4d0d-84c1-1e39ebacaefe)
 
-![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/8b2c5846-ecb9-4aa8-9e1f-59c4b2d365f9)
+
 
 #### Networking
 ## Get All Products

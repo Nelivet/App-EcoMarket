@@ -139,7 +139,7 @@ The development of this project will be organized in sprints, periods of time du
 ## Video
 https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42c0-a13b-bd3c3ffa4755
 
-https://www.loom.com/share/b23d9541137844209282344498ab2be3?sid=5f0919ba-975a-4ae4-ac81-3bac96abb3b0
+[https://www.loom.com/share/b23d9541137844209282344498ab2be3?sid=5f0919ba-975a-4ae4-ac81-3bac96abb3b0](https://www.loom.com/share/b7af218624ca405ab62973a332a57661?sid=767a8e4c-79e6-4fee-82bd-fc70a438df1e)
 -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ## Schema
 

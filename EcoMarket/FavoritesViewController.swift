@@ -11,13 +11,17 @@ import Nuke
 class FavoritesViewController: UIViewController {
 
     var favoriteProducts: [Product] = []
+    
     @IBOutlet weak var favoriteTableView: UITableView!
+    @IBOutlet weak var noFavoritesLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         favoriteTableView.dataSource = self
                favoriteTableView.delegate = self
         self.navigationItem.title = "Favorites"
+        navigationController?.navigationBar.prefersLargeTitles = true
            }
            
            override func viewWillAppear(_ animated: Bool) {
@@ -26,8 +30,16 @@ class FavoritesViewController: UIViewController {
                // Cargar los productos favoritos desde UserDefaults
                favoriteProducts = Product.getProducts(forKey: Product.favoritesKey)
                
-               // Recargar la tabla
+               // ---
                favoriteTableView.reloadData()
+               let favoriteProducts = Product.getProducts(forKey: Product.favoritesKey)
+                     if favoriteProducts.isEmpty {
+                       
+                         noFavoritesLabel.isHidden = false
+                     } else {
+                         
+                         noFavoritesLabel.isHidden = true
+                     }
            }
        }
 

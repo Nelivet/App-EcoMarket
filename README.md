@@ -123,19 +123,15 @@ The development of this project will be organized in sprints, periods of time du
     - Implement the logic to display products for sale.[x]
     - Allow navigation to the product details screen.[x]
 
-3. **Sprint 3: Product Search Functionality**
-    - Design the user interface for the product search function.
-    - Implement logic to search for products by category or keyword.
-
-4. **Sprint 4: Implementation of shopping cart functionality**
+3. **Sprint 4: Implementation of shopping cart functionality**
     - Design the user interface for the shopping cart.
     - Implement the logic to add products to the shopping cart.
     - Allow viewing and editing of the shopping cart.
 
-5. **Sprint 5: Local data persistence and favorite products**
-    - Implement local data persistence to save favorite products.
-    - Allow users to mark products as favorites.
-    - Improve user interface to show favorite products.
+4. **Sprint 5: Local data persistence and favorite products**
+    - Implement local data persistence to save favorite products.[x]
+    - Allow users to mark products as favorites.[x]
+    - Improve user interface to show favorite products.[x]
 ## Video
 https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42c0-a13b-bd3c3ffa4755
 

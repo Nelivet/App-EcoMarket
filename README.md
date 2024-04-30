@@ -123,10 +123,14 @@ The development of this project will be organized in sprints, periods of time du
     - Implement the logic to display products for sale.[x]
     - Allow navigation to the product details screen.[x]
 
-3. **Sprint 4: Implementation of shopping cart functionality**
-    - Design the user interface for the shopping cart.
-    - Implement the logic to add products to the shopping cart.
-    - Allow viewing and editing of the shopping cart.
+3. **Sprint 3: User Login Implementation**
+
+      - Design login screen UI with username, password fields, and login button.[x]
+      - Implement authentication logic for entered credentials.[x]
+      - Enable user interaction for password reset and account updates.[x]
+      - Provide error handling for invalid login attempts.[x]
+      - Securely store user credentials.[x]
+      - Integrate necessary API endpoints for authentication.[x]
 
 4. **Sprint 5: Local data persistence and favorite products**
     - Implement local data persistence to save favorite products.[x]
@@ -136,6 +140,7 @@ The development of this project will be organized in sprints, periods of time du
 https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42c0-a13b-bd3c3ffa4755
 
 [https://www.loom.com/share/b23d9541137844209282344498ab2be3?sid=5f0919ba-975a-4ae4-ac81-3bac96abb3b0](https://www.loom.com/share/b7af218624ca405ab62973a332a57661?sid=767a8e4c-79e6-4fee-82bd-fc70a438df1e)
+https://www.loom.com/share/3fef145d225041efb2464851dfa3e1f2?sid=69858ea6-78f8-45a2-b7ac-2ab7438ffeb8
 -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ## Schema
 

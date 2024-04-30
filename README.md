@@ -5,7 +5,7 @@
 2. Product Spec
 3. Wireframes
 4. Schema
-
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ### Overview
 #### Description:
 - "EcoMarket" is an e-commerce platform dedicated to promoting sustainable consumption practices and environmental conservation. With "EcoMarket", users can buy and sell a wide variety of products, from fashion items to home products, with a focus on sustainability and environmental responsibility. The app is designed to encourage a greener lifestyle by offering users an ethical and conscious alternative for their online shopping needs.
@@ -18,7 +18,7 @@
   - **Habit:** Users can visit the app regularly in search of new and sustainable products.
   - **Scope:** The initial version (V1) would focus on basic buying and selling of products. V2 could include features such as advanced search and secure payment options. V3 could be expanded to include sustainability education and awareness features.
 
-
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ### Product Spec:
 ### 1. User Stories (Required and Optional)
 
@@ -35,7 +35,7 @@
 1. Users can leave product reviews and ratings.
 2. Users can share products on social networks.
 3. Users can choose one or more product/s as their favorite.
- 
+ -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ### 2. Screen Archetypes
 
 #### Login/Registration Screen
@@ -69,7 +69,7 @@ Users can add their own review and rating for a product.
 #### Social sharing screen (Optional)
 
 Users can share information about a product on their social networks, such as Facebook or Twitter.
-
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ### 3. Navigation
 
 #### Tab navigation (Tab to Screen):
@@ -94,11 +94,12 @@ User profile screen
   - **=>** Product reviews and ratings screen (optional) (when selecting the option to view reviews and ratings)
   - **=>** Social sharing screen (optional) (when selecting the option to share a product on social networks)
 
-Wireframes
+## Wireframes
+**Digital Wireframes & Mockups**
 ![desing](https://github.com/Nelivet/App-EcoMarket/blob/27da49bc557e6ca421034d56b9920d48cfc893b0/Captura%20de%20Pantalla%202024-04-16%20a%20la(s)%2001.30.00.png)
 
-[BONUS] Digital Wireframes & Mockups
-[BONUS] Interactive Prototype 
+
+
 -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
 ## Sprint Planning and Development
 
@@ -118,9 +119,9 @@ The development of this project will be organized in sprints, periods of time du
     - Configure the login interface UI. [x]
 
 2. **Sprint 2: Home Screen Design and Implementation**
-    - Design the home screen user interface.
-    - Implement the logic to display products for sale.
-    - Allow navigation to the product details screen.
+    - Design the home screen user interface.[x]
+    - Implement the logic to display products for sale.[x]
+    - Allow navigation to the product details screen.[x]
 
 3. **Sprint 3: Product Search Functionality**
     - Design the user interface for the product search function.
@@ -135,18 +136,59 @@ The development of this project will be organized in sprints, periods of time du
     - Implement local data persistence to save favorite products.
     - Allow users to mark products as favorites.
     - Improve user interface to show favorite products.
-#### Video
+## Video
 https://www.loom.com/share/5619f974a8f1412ea5d29951f89b26af?sid=ad752d83-8185-42c0-a13b-bd3c3ffa4755
+
+[https://www.loom.com/share/b23d9541137844209282344498ab2be3?sid=5f0919ba-975a-4ae4-ac81-3bac96abb3b0](https://www.loom.com/share/b7af218624ca405ab62973a332a57661?sid=767a8e4c-79e6-4fee-82bd-fc70a438df1e)
 -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
-Schema
-[This section will be completed in Unit 9]
+## Schema
 
-Models
-[Add table of models]
+#### Products
+- id: Unique ID of the product (INTEGER)
+- image: Product image (URL)
+- name: Product name (STRING)
+- price: Price of the product (INTEGER)
+- description: Product description (STRING)
+- brand: Product brand (STRING)
 
-Networking
-[Add list of network requests by screen ]
-[Create basic snippets for each Parse network request]
-[OPTIONAL: List endpoints if using existing API such as Yelp]
+#### Users
+- username: Username (STRING)
+- password: User password (STRING)
+
+#### Models
+- Model Description Fields
+
+![Captura de Pantalla 2024-04-23 a la(s) 02 39 02](https://github.com/Nelivet/App-EcoMarket/assets/93177387/70a890e8-33ed-49ea-87e5-11ccfb430e5a)
+ - **Using personal api**
+------------------------------- ------------------------
+![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/bea75db6-62b3-4473-86a3-48ea1817974d)
+
+![image](https://github.com/Nelivet/App-EcoMarket/assets/93177387/953bf6a7-7888-4d0d-84c1-1e39ebacaefe)
+
+
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------------
+## Networking
+#### Get All Products
+Method: GET
+Endpoint:
+ [(https://codepathivetteapp.azurewebsites.net/api/Product/GetAllProducts)](https://codepathivetteapp.azurewebsites.net/api/Product/GetAllProducts)
+
+#### Get Product Details by ID
+Method: GET
+Endpoint: [https://codepathivetteapp.azurewebsites.net/api/Product/GetProductById/{product_id}](https://codepathivetteapp.azurewebsites.net/api/Product/GetProductById/1)
+
+#### Login User
+Method: POST
+Endpoint: 
+[https://codepathivetteapp.azurewebsites.net/api/User/Login](https://codepathivetteapp.azurewebsites.net/api/User/Login)
+
+#### Request body:
+ -**json**  **example**
+
+![Captura de Pantalla 2024-04-23 a la(s) 02 53 10](https://github.com/Nelivet/App-EcoMarket/assets/93177387/b5e5df81-0e75-496c-9373-7dbe0a654696)
+
+
+
+
   
 

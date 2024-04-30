@@ -1,19 +1,18 @@
 //
-//  ProductCell.swift
+//  FavoriteCell.swift
 //  App-EcoMarket
 //
-//  Created by Ivette Fernandez on 20/04/24.
+//  Created by Ivette Fernandez on 29/04/24.
 //
 
 import UIKit
 
-class ProductCell: UITableViewCell {
+class FavoriteCell: UITableViewCell {
 
-    @IBOutlet weak var mainImageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var mainImgeView: UIImageView!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var brandLabel: UILabel!
-    
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

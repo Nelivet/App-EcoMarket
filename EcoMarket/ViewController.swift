@@ -20,10 +20,32 @@ class ViewController: UIViewController, UITableViewDataSource{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+      //  Product.clearFavorites()
         tableView.dataSource = self
         //tableView.delegate = self
        fetchProducts()
+        navigationController?.navigationBar.prefersLargeTitles = true
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+      
+        if let selectedIndexPath = tableView.indexPathForSelectedRow {
+
+        
+            tableView.deselectRow(at: selectedIndexPath, animated: animated)
+        }
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let selectedIndexPath = tableView.indexPathForSelectedRow else { return }
+
+        let selectedProduct = products[selectedIndexPath.row]
+
+       
+        guard let detailViewController = segue.destination as? DetailViewController else { return }
+
+        detailViewController.product = selectedProduct
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
